@@ -33,7 +33,7 @@ function nextQuestion(choiceNumber) {
 }
 // 결과 페이지로 이동!
 function showResultPage() {
-  location.href = 'results.html?mbti=' + mbti
+  location.href = '/mbti/results.html?mbti=' + mbti
 }
 
 // '답변1' 혹은 '답변2'를 클릭했을 때 동작하는 코드에요!
